@@ -1,6 +1,9 @@
 import { motion } from "motion/react";
 import { Zap, Edit3, ArrowUpRight } from "lucide-react";
 import ImageWithFallback from "./ImageWithFallback";
+import laserCut from "../assets/images/regenerated_image_1777725493027.png";
+import laserWeld from "../assets/images/regenerated_image_1777725501356.png";
+import laserMark from "../assets/images/regenerated_image_1777725497464.png";
 
 const products = [
   {
@@ -8,21 +11,21 @@ const products = [
     description: "Giải pháp cắt kim loại tốc độ cao, độ chính xác micromet cho thép, inox, đồng, nhôm.",
     icon: Zap,
     color: "bg-amber-500",
-    image: "/src/assets/images/regenerated_image_1777725493027.png"
+    image: laserCut
   },
   {
     title: "Hàn Laser Fiber",
     description: "Công nghệ hàn thế hệ mới, mối hàn ngấu sâu, bền đẹp, không cần mài lại sau khi hàn.",
     icon: Zap,
     color: "bg-orange-600",
-    image: "/src/assets/images/regenerated_image_1777725501356.png"
+    image: laserWeld
   },
   {
     title: "Khắc Laser Fiber",
     description: "Đánh dấu, khắc barcode, logo trên mọi bề mặt vật liệu với độ sắc nét cực cao và vĩnh viễn.",
     icon: Edit3,
     color: "bg-purple-600",
-    image: "/src/assets/images/regenerated_image_1777725497464.png"
+    image: laserMark
   }
 ];
 

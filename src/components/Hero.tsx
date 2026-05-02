@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { ArrowRight, Play } from "lucide-react";
 import { Link } from "react-router-dom";
 import ImageWithFallback from "./ImageWithFallback";
+import heroImg from "../assets/images/regenerated_image_1777729867288.png";
 
 export default function Hero() {
   return (
@@ -56,7 +57,7 @@ export default function Hero() {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-gray-100 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] relative z-10 border-4 border-white/50">
               <ImageWithFallback 
-                src="/src/assets/images/regenerated_image_1777729867288.png" 
+                src={heroImg} 
                 alt="High-Power Industrial Fiber Laser Machine" 
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>

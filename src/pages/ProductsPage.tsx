@@ -2,6 +2,11 @@ import { motion } from "motion/react";
 import { Zap, Edit3, CheckCircle2, ChevronRight, Gauge, Maximize2, Shield } from "lucide-react";
 import ImageWithFallback from "../components/ImageWithFallback";
 import React from "react";
+import laserCut1 from "../assets/images/regenerated_image_1777725493027.png";
+import laserCut2 from "../assets/images/regenerated_image_1777729867288.png";
+import laserCut3 from "../assets/images/regenerated_image_1777729875063.png";
+import laserWeld1 from "../assets/images/regenerated_image_1777725501356.png";
+import laserMark1 from "../assets/images/regenerated_image_1777725497464.png";
 
 const categories = [
   {
@@ -14,19 +19,19 @@ const categories = [
         name: "MQ-3015 Single Table",
         desc: "Máy cắt laser fiber bàn đơn, giải pháp kinh tế cho doanh nghiệp vừa và nhỏ.",
         specs: { power: "1.5kW - 3kW", area: "3000 x 1500mm", accuracy: "±0.03mm" },
-        image: "/src/assets/images/regenerated_image_1777725493027.png"
+        image: laserCut1
       },
       {
         name: "MQ-3015 Exchange Table",
         desc: "Hệ thống bàn đổi Pallet tự động, tăng 50% hiệu suất sản xuất.",
         specs: { power: "3kW - 12kW", area: "3000 x 1500mm", accuracy: "±0.02mm" },
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000"
+        image: laserCut2
       },
       {
         name: "MQ-Tube Series",
         desc: "Máy cắt laser fiber chuyên dụng cho thép ống, hộp, hình H-I-U-V.",
         specs: { power: "1.5kW - 6kW", area: "L6000mm, D20-220mm", accuracy: "±0.05mm" },
-        image: "https://images.unsplash.com/photo-1504917595217-d4dc5f649e69?q=80&w=1000"
+        image: laserCut3
       }
     ]
   },
@@ -40,13 +45,13 @@ const categories = [
         name: "Handheld Welder MQ-W1500",
         desc: "Hàn nhanh gấp 10 lần MIG/TIG truyền thống, mạch hàn ngấu sâu, ít biến dạng nhiệt.",
         specs: { power: "1.5kW", area: "Handheld", accuracy: "N/A" },
-        image: "/src/assets/images/regenerated_image_1777725501356.png"
+        image: laserWeld1
       },
       {
         name: "Robot Laser Welding Cell",
         desc: "Hệ thống hàn laser tự động kết hợp cánh tay Robot cho dây chuyền sản xuất lớn.",
         specs: { power: "2kW - 4kW", area: "Customizable", accuracy: "±0.05mm" },
-        image: "https://images.unsplash.com/photo-1565439380698-5423468bb6a7?q=80&w=1000"
+        image: laserCut1
       }
     ]
   },
@@ -60,13 +65,13 @@ const categories = [
         name: "Marking Minitower v2",
         desc: "Khắc logo, date, QR code trên mọi bề mặt kim loại và nhựa cứng.",
         specs: { power: "30W - 50W", area: "100 x 100mm", accuracy: "±0.001mm" },
-        image: "/src/assets/images/regenerated_image_1777725497464.png"
+        image: laserMark1
       },
       {
         name: "CO2 Laser Marker",
         desc: "Chuyên dụng khắc trên phi kim như gỗ, da, mica, bao bì giấy.",
         specs: { power: "60W - 100W", area: "300 x 300mm", accuracy: "±0.01mm" },
-        image: "https://images.unsplash.com/photo-1590674899484-13da0d1b58f5?q=80&w=1000"
+        image: laserMark1
       }
     ]
   }

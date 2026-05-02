@@ -1,6 +1,7 @@
 import { ShieldCheck, Zap, ArrowRight, CheckCircle2 } from "lucide-react";
 import ImageWithFallback from "../components/ImageWithFallback";
 import { motion } from "motion/react";
+import laserImg from "../assets/images/regenerated_image_1777729867288.png";
 
 export default function LaserServices() {
   return (
@@ -25,7 +26,7 @@ export default function LaserServices() {
             </div>
             <div className="flex-1 w-full aspect-video rounded-[3rem] overflow-hidden shadow-2xl bg-gray-200">
               <ImageWithFallback 
-                src="https://images.unsplash.com/photo-159742324403d-d6a89472300a?auto=format&fit=crop&q=80&w=1200" 
+                src={laserImg} 
                 alt="Fiber Laser Cutting" 
               />
             </div>

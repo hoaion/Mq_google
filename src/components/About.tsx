@@ -1,6 +1,10 @@
 import { motion } from "motion/react";
 import { CheckCircle2, Award, Clock, Users } from "lucide-react";
 import ImageWithFallback from "./ImageWithFallback";
+import aboutMain from "../assets/images/regenerated_image_1777729875063.png";
+import aboutDetail1 from "../assets/images/regenerated_image_1777729871171.png";
+import productImg1 from "../assets/images/regenerated_image_1777725493027.png";
+import productImg2 from "../assets/images/regenerated_image_1777725501356.png";
 
 export default function About() {
   const stats = [
@@ -23,13 +27,13 @@ export default function About() {
               <div className="space-y-4">
                 <div className="rounded-[2rem] overflow-hidden shadow-lg aspect-square bg-gray-100">
                   <ImageWithFallback 
-                    src="/src/assets/images/regenerated_image_1777729875063.png" 
+                    src={aboutMain} 
                     alt="Industrial Fiber Laser" 
                   />
                 </div>
                 <div className="rounded-[2rem] overflow-hidden shadow-lg h-48 bg-gray-100">
                   <ImageWithFallback 
-                    src="/src/assets/images/regenerated_image_1777729871171.png" 
+                    src={aboutDetail1} 
                     alt="Laser Cutting Head" 
                   />
                 </div>
@@ -37,13 +41,13 @@ export default function About() {
               <div className="space-y-4 pt-8">
                 <div className="rounded-[2rem] overflow-hidden shadow-lg h-48 bg-gray-100">
                   <ImageWithFallback 
-                    src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=800" 
+                    src={productImg1} 
                     alt="Laser Components" 
                   />
                 </div>
                 <div className="rounded-[2rem] overflow-hidden shadow-lg aspect-square bg-gray-100">
                   <ImageWithFallback 
-                    src="https://images.unsplash.com/photo-1517373116369-9bdb8ccddedc?q=80&w=800" 
+                    src={productImg2} 
                     alt="Fiber Laser Technology" 
                   />
                 </div>
