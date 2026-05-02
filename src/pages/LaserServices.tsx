@@ -2,7 +2,7 @@ import { ShieldCheck, Zap, ArrowRight, CheckCircle2 } from "lucide-react";
 import ImageWithFallback from "../components/ImageWithFallback";
 import { motion } from "motion/react";
 export default function LaserServices() {
-  const laserImgUrl = "https://images.unsplash.com/photo-159742324403d-d6a89472300a?auto=format&fit=crop&q=80&w=1200";
+  const laserImgUrl = "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=1200";
   return (
     <div className="pt-24 min-h-screen bg-white">
       {/* Header Section */}

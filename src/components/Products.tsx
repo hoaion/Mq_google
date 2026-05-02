@@ -7,21 +7,21 @@ const products = [
     description: "Giải pháp cắt kim loại tốc độ cao, độ chính xác micromet cho thép, inox, đồng, nhôm.",
     icon: Zap,
     color: "bg-amber-500",
-    image: "https://images.unsplash.com/photo-159742324403d-d6a89472300a?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=800"
   },
   {
     title: "Hàn Laser Fiber",
     description: "Công nghệ hàn thế hệ mới, mối hàn ngấu sâu, bền đẹp, không cần mài lại sau khi hàn.",
     icon: Zap,
     color: "bg-orange-600",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5f649e69?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800"
   },
   {
     title: "Khắc Laser Fiber",
     description: "Đánh dấu, khắc barcode, logo trên mọi bề mặt vật liệu với độ sắc nét cực cao và vĩnh viễn.",
     icon: Edit3,
     color: "bg-purple-600",
-    image: "https://images.unsplash.com/photo-1590674899484-13da0d1b58f5?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800"
   }
 ];
 

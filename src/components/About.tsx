@@ -3,10 +3,10 @@ import { CheckCircle2, Award, Clock, Users } from "lucide-react";
 import ImageWithFallback from "./ImageWithFallback";
 export default function About() {
   const images = {
-    aboutMain: "https://images.unsplash.com/photo-1565193298415-84226999a341?auto=format&fit=crop&q=80&w=800",
+    aboutMain: "https://images.unsplash.com/photo-159742324403d-d6a89472300a?auto=format&fit=crop&q=80&w=800",
     aboutDetail1: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=800",
     productImg1: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
-    productImg2: "https://images.unsplash.com/photo-1517373116369-9bdb8ccddedc?auto=format&fit=crop&q=80&w=800"
+    productImg2: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800"
   };
 
   const stats = [
