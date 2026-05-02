@@ -1,9 +1,8 @@
 import { Settings, CheckCircle2, Factory } from "lucide-react";
 import ImageWithFallback from "../components/ImageWithFallback";
 import { motion } from "motion/react";
-import cncImg from "../assets/images/regenerated_image_1777729875063.png";
-
 export default function CNCServices() {
+  const cncImgUrl = "https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&q=80&w=1200";
   return (
     <div className="pt-24 min-h-screen bg-white font-sans">
       <section className="py-20 bg-gray-50">
@@ -12,7 +11,7 @@ export default function CNCServices() {
              <div className="order-2 lg:order-1">
                <div className="aspect-square rounded-[3rem] overflow-hidden shadow-2xl bg-gray-200">
                  <ImageWithFallback 
-                   src={cncImg} 
+                   src={cncImgUrl} 
                    alt="CNC Machining" 
                  />
                </div>

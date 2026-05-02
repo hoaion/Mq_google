@@ -1,12 +1,14 @@
 import { motion } from "motion/react";
 import { CheckCircle2, Award, Clock, Users } from "lucide-react";
 import ImageWithFallback from "./ImageWithFallback";
-import aboutMain from "../assets/images/regenerated_image_1777729875063.png";
-import aboutDetail1 from "../assets/images/regenerated_image_1777729871171.png";
-import productImg1 from "../assets/images/regenerated_image_1777725493027.png";
-import productImg2 from "../assets/images/regenerated_image_1777725501356.png";
-
 export default function About() {
+  const images = {
+    aboutMain: "https://images.unsplash.com/photo-1565193298415-84226999a341?auto=format&fit=crop&q=80&w=800",
+    aboutDetail1: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=800",
+    productImg1: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
+    productImg2: "https://images.unsplash.com/photo-1517373116369-9bdb8ccddedc?auto=format&fit=crop&q=80&w=800"
+  };
+
   const stats = [
     { icon: Award, label: "Công nghệ", desc: "Top 10 Fiber Laser" },
     { icon: Clock, label: "Kinh nghiệm", desc: "10+ Năm trong ngành" },
@@ -27,13 +29,13 @@ export default function About() {
               <div className="space-y-4">
                 <div className="rounded-[2rem] overflow-hidden shadow-lg aspect-square bg-gray-100">
                   <ImageWithFallback 
-                    src={aboutMain} 
+                    src={images.aboutMain} 
                     alt="Industrial Fiber Laser" 
                   />
                 </div>
                 <div className="rounded-[2rem] overflow-hidden shadow-lg h-48 bg-gray-100">
                   <ImageWithFallback 
-                    src={aboutDetail1} 
+                    src={images.aboutDetail1} 
                     alt="Laser Cutting Head" 
                   />
                 </div>
@@ -41,13 +43,13 @@ export default function About() {
               <div className="space-y-4 pt-8">
                 <div className="rounded-[2rem] overflow-hidden shadow-lg h-48 bg-gray-100">
                   <ImageWithFallback 
-                    src={productImg1} 
+                    src={images.productImg1} 
                     alt="Laser Components" 
                   />
                 </div>
                 <div className="rounded-[2rem] overflow-hidden shadow-lg aspect-square bg-gray-100">
                   <ImageWithFallback 
-                    src={productImg2} 
+                    src={images.productImg2} 
                     alt="Fiber Laser Technology" 
                   />
                 </div>

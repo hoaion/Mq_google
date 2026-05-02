@@ -2,9 +2,8 @@ import { motion } from "motion/react";
 import { ArrowRight, Play } from "lucide-react";
 import { Link } from "react-router-dom";
 import ImageWithFallback from "./ImageWithFallback";
-import heroImg from "../assets/images/regenerated_image_1777729867288.png";
-
 export default function Hero() {
+  const heroImgUrl = "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200";
   return (
     <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-sans">
@@ -57,7 +56,7 @@ export default function Hero() {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-gray-100 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] relative z-10 border-4 border-white/50">
               <ImageWithFallback 
-                src={heroImg} 
+                src={heroImgUrl} 
                 alt="High-Power Industrial Fiber Laser Machine" 
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
